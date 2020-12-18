@@ -17,3 +17,5 @@ The bot that increases your chances of winning by constantly commenting on Insta
 - Enter 0 and bot will start to work. Bot will work until you close it.
 
 # Futures in Progress
+- UI
+- User list
