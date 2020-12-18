@@ -66,7 +66,7 @@ f.close()
 
 print("Bot çalışmaya başladı")
 
-bot = InstagramBot.InstagramBot('yildiznisaaa', 'instagramçekiliş')
+bot = InstagramBot.InstagramBot('yourUsername', 'yourPassword')
 bot.signIn()
 
 while 1:
