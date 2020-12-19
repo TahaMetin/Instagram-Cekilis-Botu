@@ -20,3 +20,4 @@ The bot that increases your chances of winning by constantly commenting on Insta
 - UI
 - User list
 - If post deleted bot should understand and delete the link from data base
+- If any thing should writed with tags computer ask what is it and write for this link
