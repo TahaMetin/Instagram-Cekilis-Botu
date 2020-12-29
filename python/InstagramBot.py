@@ -100,8 +100,9 @@ class InstagramBot:
 
     def goPosterProfile(self):
         print('goPosterProfile')
-        name =self.browser.find_element_by_xpath('/html/body/div[5]/div[2]/div/article/header/div[2]/div[1]/div[1]/span/a')
-        name.click()
+        name =self.browser.find_element_by_xpath('/html/body/div[5]/div[2]/div/article/header/div[2]/div[1]/div[1]/span/a').text
+        self.browser.get('https://www.instagram.com/' + name )
+
 
     def followPosterFollowings(self):
         print('followPosterFollowings')
